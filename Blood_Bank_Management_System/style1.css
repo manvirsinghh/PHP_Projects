@@ -1,0 +1,57 @@
+:root {
+    --primary-bg: white;
+    --secondary-bg: #F8F9FA; 
+    --border-color: #ddd;
+    --border-radius: 10px;
+    --shadow-effect: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    --btn-bg-color: #FF4444;
+    --btn-hover-color:#DC3545;
+    --input-border: #ccc;
+    --input-padding: 10px;
+
+    --icon-color: #FF6B6B; 
+    
+}
+
+body {
+    
+    background-color: var(--secondary-bg);
+}
+
+.left{
+  position: relative;
+  top:-120px;
+}
+.sec {
+    background-color: var(--primary-bg);
+    border-radius: var(--border-radius);
+    border: 1px solid var(--border-color);
+    box-shadow: var(--shadow-effect);
+}
+
+.input-field {
+    border: 1px solid var(--input-border);
+    padding: var(--input-padding);
+    border-radius: var(--border-radius);
+}
+
+.btn-custom {
+    background-color: var(--btn-bg-color);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: var(--border-radius);
+
+    font-size: 16px;
+    
+}
+
+.btn-custom:hover {
+    background-color: var(--btn-hover-color);
+}
+
+
+.icon {
+    color: var(--icon-color);
+    margin-right: 8px;
+}

@@ -1,0 +1,15 @@
+:root {
+    --danger-color: #FF6B6B; 
+}
+h1 {
+    color: var(--danger-color); 
+}
+h2{
+ color:var(--danger-color);
+
+}
+
+.card-body{
+   background-color: var(--danger-color);
+}
+
