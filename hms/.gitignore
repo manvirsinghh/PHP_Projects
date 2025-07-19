@@ -1,0 +1,10 @@
+# Ignore sensitive config file
+config.php
+
+# Ignore temporary and cache folders
+tmp/
+vendor/
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
